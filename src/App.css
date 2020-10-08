@@ -1,0 +1,79 @@
+/* Bootstrap Override*/
+* {
+    box-sizing:border-box !important;
+    font-family: "Helvetica"
+}
+
+body {
+    max-height:100vh;
+    height:100%;
+}
+
+#root {
+    height:100%;
+}
+
+#profile-image {
+    border-radius:2em;
+}
+
+TransitionGroup, CSSTransition {
+    display:flex;
+}
+
+/* Import fonts */
+
+
+/* ===========================
+        ELEMENT STYLING
+ ============================*/
+
+
+/* ====== Classes ====== */
+
+/* Container */
+.content-wrapper {
+    color:#FFFFFF;
+    text-align:center;
+    align-self:center;
+    justify-self: center;
+    min-height:calc(100vh - 102px);
+    display:flex;
+    margin-top:56px;
+}
+
+#home,
+#about,
+#project {
+    align-self: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+/* Navigation */
+
+
+/* ID Styling */
+
+#tsparticles {
+    position:fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+/* ===========================
+        MEDIA QUERIES
+ ============================*/
+
+@media (min-width: 768px) {
+    /* Containers */
+}
+
+@media (min-width:996px) {
+}
